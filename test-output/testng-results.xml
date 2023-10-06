@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-06T05:26:23 IST" name="Suite" finished-at="2023-10-06T05:26:34 IST" duration-ms="10312">
+    <groups>
+    </groups>
+    <test started-at="2023-10-06T05:26:23 IST" name="Test" finished-at="2023-10-06T05:26:34 IST" duration-ms="10312">
+      <class name="com.qa.testscript.TC_FlipKart_001">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.testscript.TC_FlipKart_001@5524cca1]" started-at="2023-10-06T05:26:18 IST" name="setUp" finished-at="2023-10-06T05:26:23 IST" duration-ms="5386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.flipkart.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkPopUpCloseButton()[pri:0, instance:com.qa.testscript.TC_FlipKart_001@5524cca1]" started-at="2023-10-06T05:26:24 IST" name="checkPopUpCloseButton" finished-at="2023-10-06T05:26:24 IST" duration-ms="353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPopUpCloseButton -->
+        <test-method signature="checkPosition()[pri:1, instance:com.qa.testscript.TC_FlipKart_001@5524cca1]" started-at="2023-10-06T05:26:24 IST" name="checkPosition" finished-at="2023-10-06T05:26:24 IST" depends-on-methods="com.qa.testscript.TC_FlipKart_001.checkPopUpCloseButton" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPosition -->
+        <test-method signature="checkSearch()[pri:2, instance:com.qa.testscript.TC_FlipKart_001@5524cca1]" started-at="2023-10-06T05:26:24 IST" name="checkSearch" finished-at="2023-10-06T05:26:34 IST" depends-on-methods="com.qa.testscript.TC_FlipKart_001.checkPopUpCloseButton" duration-ms="9475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.testscript.TC_FlipKart_001@5524cca1]" started-at="2023-10-06T05:26:34 IST" name="tearDown" finished-at="2023-10-06T05:26:34 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.testscript.TC_FlipKart_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
